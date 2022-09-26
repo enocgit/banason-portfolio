@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Banason">
+    <meta name="keywords" content="banason, portfolio, graphic designer">
+    <script src="https://kit.fontawesome.com/9d0c3fdb47.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <script src="./contact.js" async></script>
+    <title>B.Studios</title>
+</head>
+<body>
+    <section class="header non-home-header nhh-contact">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links">
+            <ul>
+                <li><a href="./index.html">Home</a> </li>
+                <li><a href="./index.html#resume">Resume</a> </li> 
+                <li><a href="./design.html">Portfolio</a> </li>
+                <li><a href="./about.html">About</a> </li>
+                <li><a href="./contact.html">Contact</a> </li>
+            </ul>   
+        </nav>
+    </section>
+    <section class="contact">
+       <form action="" id="contact-form">
+            <div id="label-col">
+                <label for="name">Name</label>
+                <input type="text" placeholder="Type your name here" id="name" name="name">
+            </div>
+            <div id="label-col">
+                <label for="industry">Industry</label>
+                <input type="text" placeholder="Type name of company and what they do" id="industry" name="industry">
+            </div>
+            <div id="label-col">
+                <label for="project">Tell us about your project</label>
+                <textarea name="" id="project" cols="30" rows="6" placeholder="Please detail your project" name="project"></textarea>
+            </div>
+            <div id="budget-email">
+                <div id="label-col">
+                    <label for="budget">Budget</label>
+                    <input type="text" id="budget" name="budget">
+                </div>
+                <div id="label-col">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="example@mail.com" name="email">
+                </div>
+            </div>
+            <div id="label-col">
+                <input type="submit" value="Connect" id="submit-btn">
+            </div>
+            <div class="form-bottom" id="label-col">
+                <p>or</p>
+            </div>
+            <!-- <div class="form-bottom" id="label-col">
+                <p>Contact</p>
+            </div> -->
+            <div class="form-bottom" id="mail-phone">
+                <a href="tel:0554459958">
+                    <i id="label-col" class="fa fa-phone-square fa-2x" style="color:#133d57; margin-right: 0.5rem;"></i>
+                </a>
+                <a href="mailto:obanason90@gmail.com">
+                    <i id="label-col" class="fa fa-envelope fa-2x" style="color: #133d57"></i>
+                </a>
+            </div>
+       </form>
+    </section>
+    <div class="design-seperator"></div>
+</body>
+</html>
